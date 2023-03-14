@@ -16,8 +16,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Dominoes domino = new Dominoes (0,1);
-        Dominoes domino2 = new Dominoes (0,2);
+        Dominoes domino = new Dominoes (1,1);
+        Dominoes domino2 = new Dominoes (1,2);
         int total = domino + domino2;
         Console.WriteLine(total);
     }
